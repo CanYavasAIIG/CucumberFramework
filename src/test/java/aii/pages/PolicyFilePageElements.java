@@ -14,8 +14,8 @@ public class PolicyFilePageElements extends CommonMethods {
 	@FindBy(linkText= "Application")
 	public WebElement applicationForm;
 	
-	@FindBy(id= "ToolbarSearch")
-	public WebElement search;
+	@FindBy(linkText= "Endorsement Package")
+	public WebElement endorsementPackageForm;
 	
 
 	public PolicyFilePageElements() {
